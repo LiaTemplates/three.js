@@ -1,0 +1,26 @@
+{
+  "name": "lia-three",
+  "version": "0.1.0",
+  "description": "LiaScript template for three.js – 3D scenes and buildings",
+  "app": "dist/index.js",
+  "scripts": {
+    "build": "npx parcel build src/index.js --no-source-maps",
+    "watch": "npx parcel watch src/index.js"
+  },
+  "targets": {
+    "app": {
+      "includeNodeModules": true,
+      "outputFormat": "global",
+      "isLibrary": false
+    }
+  },
+  "keywords": ["LiaScript", "three.js", "3D", "architecture", "OER"],
+  "author": "André Dietrich",
+  "repository": "https://github.com/LiaTemplates/three.js",
+  "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "three": "^0.186.1"
+  }
+}
